@@ -1,0 +1,176 @@
+body {
+  font-family: "Montserrat";
+}
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 1rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.bigHeader {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+.feature-box {
+  padding: 2% 0;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  transition-duration: 0.4s;
+}
+.icon:hover {
+  color: #ff4c68;
+  font-size: 6rem;
+}
+
+/* Testimonials Section: */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.puppy-image {
+  height: 210px;
+  width: 210px;
+  /* width: 20%; */
+}
+.testimonial-image {
+  border-radius: 100%;
+  margin: 1rem;
+  width: 20%;
+}
+
+/* Press Section: */
+#press {
+  padding: 3% 15% 8%;
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-image {
+  width: 20%;
+  padding: 0% 3%;
+  transition-duration: 0.4s;
+}
+.press-image:hover {
+  width: 30%;
+}
+
+/* Carousel Section: */
+.carousel-item {
+  padding: 7% 15% 0;
+}
+
+/* Pricing Section: */
+#pricing {
+  padding: 7% 15%;
+  text-align: center;
+}
+.pricing-section {
+  margin: 3% 2%;
+}
+
+/* CTA section: */
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.social-media {
+  color: black;
+  margin: 1rem;
+  transition-duration: 0.4s;
+}
+.social-media:hover {
+  font-size: 2rem;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.goHome {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: grey;
+  z-index: 1;
+}
+
+/* Media Queries */
+@media (max-width: 1028px) {
+  .title-image {
+    width: 40%;
+    transform: rotate(0);
+    position: static;
+    right: 30%;
+  }
+  .bigHeader {
+    text-align: center;
+  }
+}
